@@ -1,0 +1,12 @@
+from tkinter import *
+top=Tk()
+top.geometry("400x400")
+b1=Button(top,text="click")
+b1.place(x=2,y=2)
+b2=Button(top,text="click1")
+b2.place(relx=0.5,rely=0.5,anchor=CENTER)
+b3=Button(top,text="cl3")
+b3.place(x=20,y=20)
+b4=Button(top,text="cl4")
+b4.place(in_=b3)
+top.mainloop()
